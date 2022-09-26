@@ -1,0 +1,27 @@
+{
+    "name": "jackc/test",
+    "description": "测试项目",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "license": "xxx-xxx-xxx",
+    "autoload": {
+        "psr-0": {
+            "DB\\": "sdk/"
+        },
+        "psr-4": {
+            "src\\": "src/"
+        },
+        "classmap": ["lib"],
+        "files": ["common/Person.php", "common/test/Person.php"]
+    },
+    "authors": [
+        {
+            "name": "chenchao",
+            "email": "1366294101@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
